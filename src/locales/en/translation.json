@@ -5,5 +5,7 @@
   "Contact": "Contact",
   "Books": "Books",
   "New Book": "New Book",
-  "Add": "ADD"
+  "Add": "ADD",
+  "Title": "Title",
+  "Author": "Author"
 }
