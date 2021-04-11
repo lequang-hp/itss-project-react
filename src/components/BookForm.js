@@ -25,7 +25,7 @@ const BookForm = ( {t} ) => {
   };
 
   return (
-    <div className='section'>
+    <div className='section' style={{float: 'right', width: 800}}>
       <div className='container'>
         <h6>{ t('New Book') }</h6>
         <form onSubmit={handleSubmit}>

@@ -38,8 +38,8 @@ const Navbar = ( {t} ) => {
               <Link to='/contact'>{ t('Contact') }</Link>
             </li>
             <li>
-              <button onClick={() => changeLanguage('en')}>en</button>
-              <button onClick={() => changeLanguage('ja')}>ja</button>
+              <button onClick={() => changeLanguage('en')}>English</button>
+              <button onClick={() => changeLanguage('ja')}>Japanese</button>
             </li>
           </ul>
         </div>
