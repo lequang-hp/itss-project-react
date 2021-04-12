@@ -1,26 +1,22 @@
 import React from 'react';
+import { withNamespaces } from 'react-i18next';
 
-const Contact = () => {
+const Contact = ({t}) => {
   return (
     <div className='container'>
       <h5>Contact Us</h5>
+      <h6>K62 HEDSPI</h6>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        <li>{t('Name_1')}</li>
+        <li>{t('Name_2')}</li>
+        <li>{t('Name_3')}</li>
+        <li>{t('Name_4')}</li>
+        <li>{t('Name_5')}</li>
       </p>
       <div className='divider' />
-      <h6>Address:</h6>
-      <ul>
-        <li>2020 Summer Games</li>
-        <li>Tokyo, Japan</li>
-      </ul>
+      <h6>{t('Address')}</h6>
     </div>
   );
 };
 
-export default Contact;
+export default withNamespaces()(Contact);

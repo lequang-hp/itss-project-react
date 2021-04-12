@@ -7,5 +7,12 @@
   "New Book": "New Book",
   "Add": "ADD",
   "Title": "Title",
-  "Author": "Author"
+  "Author": "Author",
+  "Text_about": "This is a book library application. The app helps users to manage books, improve user awareness of reading. Books are resources, but that resource management isn't much. Books bring a lot of knowledge. Besides, the book brings experiences that we can imagine through the author's words, which is one of the intangible values that the book brings.In Vietnam, the reading culture is still very poor, so the book library app was created to improve Vietnamese users reading culture.",
+  "Name_1": "Le Minh Quang",
+  "Name_2": "Nguyen Duc Quang",
+  "Name_3": "Nguyen Duc Tan",
+  "Name_4": "Nguyen Tai Thao",
+  "Name_5": "Tran Minh Quang",
+  "Address": "Address: Hanoi University of Science and Technology, Viet Nam"
 }
